@@ -15,4 +15,7 @@ file_picker: Enables file selection from the device's file system.
 dio: For making HTTP requests, handling file uploads.
 photo_view: Provides a zoomable image viewer for images.
 flutter_pdfview: Displays PDF documents seamlessly.
-------------------------------------------------------------------
+
+https://github.com/user-attachments/assets/4ff949ae-35e5-4d9d-9301-51f4eeb0313f
+
+----------------------------------------------------------------------------------
