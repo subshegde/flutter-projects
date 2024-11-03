@@ -19,3 +19,6 @@ flutter_pdfview: Displays PDF documents seamlessly.
 https://github.com/user-attachments/assets/4ff949ae-35e5-4d9d-9301-51f4eeb0313f
 
 ----------------------------------------------------------------------------------
+2) flutter_tts :
+https://github.com/user-attachments/assets/ad80fd3a-d919-4a20-afe3-b434ca80a987
+
