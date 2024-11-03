@@ -1,7 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_subshegde/preview/add_file.dart';
+import 'package:flutter_subshegde/home/home.dart';
+import 'package:flutter_subshegde/utils/navigator.dart';
 
 final RouteObserver<PageRoute> routeObserver = RouteObserver<PageRoute>();
 
@@ -19,15 +20,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      navigatorKey: NavigationService.navigatorKey,
       color: Colors.white,
-      title: 'HRM SMART LABS',
+      title: 'Flutter',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
       navigatorObservers: [routeObserver],
-      home: AddFile(),
+      home: Home(),
     );
   }
 }
