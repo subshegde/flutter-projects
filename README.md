@@ -22,3 +22,10 @@ https://github.com/user-attachments/assets/4ff949ae-35e5-4d9d-9301-51f4eeb0313f
 2) flutter_tts :
 https://github.com/user-attachments/assets/ad80fd3a-d919-4a20-afe3-b434ca80a987
 
+----------------------------------------------------------------------------------
+
+3) Implemented pagination using number_paginator and number_pagination package.
+   
+https://github.com/user-attachments/assets/76c3dec0-8c9e-432c-92cf-eb67a1c64ba9
+
+
