@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_subshegde/pagination/pagination.dart';
 import 'package:flutter_subshegde/preview/add_file.dart';
 import 'package:flutter_subshegde/text_to_speech(TTS)/tts.dart';
 import 'package:flutter_subshegde/universal/components/custom_appbar.dart';
@@ -33,6 +34,15 @@ class _HomeState extends State<Home> {
                 },
                 child: const Text('Start Text To Speech'),
               ),
+
+              ElevatedButton(
+                onPressed: () {
+                  NavigationService.navigateTo(NumberPaginator1());
+                },
+                child: const Text('Pagination'),
+              ),
+
+
             ],
           ),
         ),
